@@ -1,12 +1,42 @@
 /* Main Styles */
+html,
+body {
+  box-sizing: border-box;
+}
+
 
 html {
   background-color: crimson;
 }
 
+h1,
+p {
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+}
+
 h1 {
   color: hsl(0, 0%, 75%);
-  text-align: center;
+  text-shadow: 3px 1px #000;
+}
+
+p {
+  padding-top: 5px;
+}
+
+.canvas {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 35%;
+  margin: 0 auto;
+  border-radius: 45%;
+}
+
+.color-container {
+  margin: 0 auto;
 }
 
 .pixel {
@@ -22,8 +52,9 @@ h1 {
 
 .palette {
   height: 75px;
-  background-color: hsl(0, 0%, 75%);
+  background-color: hsl(0, 0%, 80%);
   clear: both;
+  margin-top: 50px 0 50px 50px;
 
 }
 
@@ -33,6 +64,10 @@ h1 {
   height: 25px;
   border-radius: 50%;
   display: inline-block;
+}
+
+.paint-color:first-of-type {
+  margin-left: 20%;
 }
 
 .red {
