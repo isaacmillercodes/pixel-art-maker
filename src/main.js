@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  console.log('sanity check');
+  
 
 
     for (var i = 0; i < 468; i++) {
