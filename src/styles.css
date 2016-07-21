@@ -8,6 +8,11 @@
   padding: 0;
 }
 
+.palette {
+  height: 50px;
+  background-color: hsl(0, 0%, 75%);
+}
+
 .paint-color {
   border: 1px solid black;
   width: 10px;
@@ -30,4 +35,28 @@
 
 .yellow {
   background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.grey {
+  background-color: grey;
 }

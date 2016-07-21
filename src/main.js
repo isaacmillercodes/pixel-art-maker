@@ -3,7 +3,7 @@
   console.log('sanity check');
 
 
-    for (var i = 0; i < 130; i++) {
+    for (var i = 0; i < 260; i++) {
       var $el = $('<div class="pixel"></div>')
       $('.canvas').append($el);
     };
