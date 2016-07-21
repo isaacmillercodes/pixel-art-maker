@@ -19,7 +19,6 @@
       color = classes.replace('paint-color ', '');
 
       //can also do:
-
       //color = $(this).css('background-color')
     })
 
