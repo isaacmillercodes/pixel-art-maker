@@ -1,4 +1,14 @@
 /* Main Styles */
+
+html {
+  background-color: crimson;
+}
+
+h1 {
+  color: hsl(0, 0%, 75%);
+  text-align: center;
+}
+
 .pixel {
   height: 25px;
   width: 25px;
@@ -6,17 +16,21 @@
   display: inline-block;
   margin: 0;
   padding: 0;
+  background-color: white;
+  float: left;
 }
 
 .palette {
-  height: 50px;
+  height: 75px;
   background-color: hsl(0, 0%, 75%);
+  clear: both;
+
 }
 
 .paint-color {
   border: 1px solid black;
-  width: 10px;
-  height: 10px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   display: inline-block;
 }
